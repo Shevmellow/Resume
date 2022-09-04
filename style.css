@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+
 body {
     color: #4c7bce;
     background: rgb(255, 240, 245);
@@ -142,6 +143,27 @@ caption-side: bottom;
     box-sizing: border-box; 
     /* display: inline-block; */
 }
+@media (max-width:650px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+    .info p {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .info-text1 {
+        /* display: block; */
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* font-size: 1.3rem;
+    padding: 10px;
+    text-align: center; */
+
+}
 .info-text{
     display: flex;
     /* hanging-punctuation: first last; */
@@ -170,11 +192,18 @@ caption-side: bottom;
 
 }
 
+
 .link{
     color: mediumslateblue;
     text-decoration: none;
     transition: all .3s;
 }
+/* @media (max_width:650px) {
+    .link{
+        text-align: center;
+        width: 100%;
+                } } */
+    
 .link:hover{
     opacity: 0.5;
     /* font-size: 12rem; */
@@ -224,6 +253,15 @@ letter-spacing: 3px;
     /* width: calc(50% - 20px); */
 
 }
+@media (max-width:  650px) {
+    .form-row   {
+        display:    block;
+}
+    .form-row, .form-group  {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 .form-row, .form-group:last-child{
     margin-right: 0;
 }
