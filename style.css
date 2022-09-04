@@ -138,9 +138,9 @@ caption-side: bottom;
 .info{
     box-shadow: 4px 4px 14px rgba(0,0,0 0.25) ; 
     /* margin-bottom: 20px;  */
-    /* display: flex; */
-    box-sizing: border-box;
-    display: inline-block;
+    display: flex; 
+    box-sizing: border-box; 
+    /* display: inline-block; */
 }
 .info-text{
     display: flex;
@@ -152,20 +152,20 @@ caption-side: bottom;
     /* display: inline; */
     /* hanging-punctuation: first last; */
     /* display: flex;  */
-    margin: 0;
-    width: 30%; 
+    margin: 20px;
+    width: 50%; 
 }
 /* .info-text, h2 {
     display: inline;
     width: 50%;
 } */
 .avatar{
-    width: 30%;
+    width: 50%;
     padding: 0px;
     margin: 0px;
     border-radius: 20px; 
-    /* box-shadow: 4px 4px 14px rgba(0,0, 0.25); */
-    /* margin: 20px auto; */
+    box-shadow: 4px 4px 14px rgba(0,0, 0.25);
+    margin: 20px auto;
     /* display: block;  */
 
 }
