@@ -1,153 +1,120 @@
 <!DOCTYPE html>
 <!-- saved from url=(0034)http://127.0.0.1:5500/01_text.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, text, css, resume, tags"> 
-    <meta name="description" content="This is my resume!">
-    <title>Hello HTML-text!</title>
-	<style>
-		td,
-	th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 10px;
-	}
+<html lang="en">
 
-	td {
-    text-align:left;
-	}
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
-	th[scope="col"] {
-    background-color: skyblue;
-    color: black;
-	}
-
-	th[scope="row"] {
-    background-color: black;
-    
-	}
-
-	caption {
-    padding: 10px;
-    caption-side: bottom;
-	}
-
-	.card{
-			background-color:skyblue;
-			padding: 3px;
-            margin-bottom: 3px;
-	}
-	.fancy{
-            font-weight: bold;
-            text-shadow: 2px 2px 4px skyblue;
-    }
-	
-	</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML, text, css, resume, tags">
+	<meta name="description" content="This is my resume!">
+	<title>Hello HTML-text!</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="fancy">
-    <h1 >Kseniaa Shevchenko</h1>
-	</header>
+	<div class="container">
+		<div class="box">
+			<!-- <header class="card"> -->
+				<h2>Kseniaa Shevchenko</h2>
+				<div class="info" class="card">
+					<!-- <header class="card"class="fancy"> -->
+					
+					<!-- <div class="info-text"> -->
+						
+						<!-- </header> -->
+					<!-- <div style="display: inline-block"> -->
+						<img  src="beauteful_pict.jpg" alt="hear can be my portrait " class="avatar">
+					<!-- </div> -->
+						
+					<!-- <div style="display: inline-block"> -->
+						<p>Just a couple of months ago, my husbeand and i moved to Serbia.
+							Shortly before that, <strong> i started learning English <em>on my own. </em></strong>
+							My husband, a backend java developer, suggested that <strong>i start learning front-end.
+							</strong>
+							This is how your course came into my hands.
+						</p>
+					<!-- </div> -->
+					<!-- </div> -->
+						<br>
+						<h2> I'm on social media</h2>
+						<p>
+							<a   href="https://www.instagram.com/she_kse/" target="_blank" class="link"> instagram </a>/
+							<a  href="https://t.me/awesome_travellers" target="_blank" class="link">telegram</a>
+						</p>
+					
+				</div>
+			<!-- </header> -->
 
-    <img src="beauteful_pict.jpg" alt="hear can be my portrait " width="200">
-	<hr>
-	<div class="card">
-    <p>Just a couple of months ago, my husbeand and i moved to Serbia.
-        <br>
-        Shortly before that, <strong> i started learning English <em>on my own. </em></strong>
-        My husband, a full-stag java developer, suggested that <strong>i start learning front-end.
-            </strong> 
-            <br>
-            This is how your course came into my hands.
-    </p>
-</div>
+			<br>
+			<div class="card card-1">
+				<h3> My hobbies </h3>
+				<ol>
+					<li>reading</li>
+					<li>embroidery </li>
+					<li>photographing </li>
+					<li>psychology</li>
+					<li>ping pong</li>
+				</ol>
 
-    <hr>
-<header>
-    <h2> I'm on social media</h2>
-</header>
-    <p>
-        <a href="https://www.instagram.com/she_kse/" target="_blank" class="fancy"> instagram </a>
-        <div>
-			<a href="https://t.me/shevmellow" target="_blank" class="fancy" >telegram</a> 
+			</div>
+			<br>
+			<header class="card card-2">
+				<h3> Work experience </h3>
+				<div id="table" class="table">
+					<table>
+						
+						<tbody>
+							<tr>
+								<td scope>caffe fox</td>
+								<td scope>barista</td>
+								<td scope>2019-2020</td>
+							</tr>
+							<tr>
+								<td>caffee green stag</td>
+								<td>barista</td>
+								<td>2020-2021</td>
+							</tr>
+							<tr>
+								<td>shoe dry cleaning Sneak&frash</td>
+								<td>craftswoman</td>
+								<td>2021-2022</td>
+							</tr>
+
+						</tbody>
+					</table>
+			</header>
+			
+				<div class="card-3">
+				<form class="form">
+					<h3>Contact with me</h3>
+						<div class="form-row">
+							<div class="form-group">
+								<label for="name"><strong>Your name </strong></label>
+								<input class="fancy" type="name" id="name" placeholder="Enter your name">
+							</form>
+							</div>
+							<div class="form-group">
+								<label for="email"><strong>Your email </strong></label>
+								<input type="email" id="email" class="fancy" placeholder="Enter your email">
+							</div>
+						</div>
+	
+						<div class="form-group">
+						<label for="message"><strong>Your message</strong></label>
+						
+						<textarea class="fancy" id="message" cols="20" rows="5"
+							placeholder="enter your message..."></textarea>
+						</div>
+	
+						<input class="btn" class="button" type="submit" value="send">
+						<input class="btn"class="button" type="reset" value="reset">
+					
+				</form>
+			</div>
 		</div>
-        
-    </p>
-
-	<hr>
-<header class="card">
-	<h3> My hobbies 
-		<ol >
-			<li>reading</li>
-			<li>embroidery </li>
-			<li>photographing </li>
-			<li>psychology</li>
-			<li>ping pong</li>
-		</ol>
-	</h3>
-</header>
-	<hr>
-	<h3> Work experience </h3>
-	<div id="table" class="table">
-		<table>
-		 <thead>
-			<th scope="col">name</th>
-			<th scope="col">function</th>
-			<th scope="col">year</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td scope>caffe fox</td>
-				<td scope>barista</td>
-				<td scope>2019-2020</td>
-			</tr>
-			<tr>
-				<td>caffee green stag</td>
-				<td>barista</td>
-				<td>2020-2021</td>
-			</tr>
-			<tr>
-				<td>shoe dry cleaning Sneak&frash</td>
-				<td>craftswoman</td>
-				<td>2021-2022</td>
-			</tr>
-
-		</tbody>
-	</table>
-
-	<hr>
-	<div class="fancy">
-	<h3>Contact with me</h3>
 	</div>
-	<form>
-		<div>
-			<label for="name"><strong>Your name </strong></label>
-			<input class="fancy" type="name" id="name" 
-			placeholder="Enter your name" >
-		</div>
-		<div>
-			<label for="email" ><strong>Your email </strong></label>
-			<input type="email" id="email" class="fancy"
-			placeholder="Enter your email" >
-		</div>
-
-		<div>
-			<label for="message"><strong>Your message</strong></label>
-			<br>
-			<textarea class="fancy" id="message" cols="20" rows="5" 
-			placeholder="enter your message..."></textarea>
-		</div>
-
-		<div>
-			<input type="submit" value="send">
-			<br>
-			<input type="reset" value="reset">
-		</div>
-
-	</form>
-
 
 </body>
 

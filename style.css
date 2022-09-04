@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    color: #4c7bce;
+    background: rgb(255, 240, 245);
+    font: normal 15px 'Silkscreen', cursive;
+    /* font-family: 'Silkscreen', cursive; */
+    /* font-size: 15px; */
+    line-height: 1.6em;
+    /* font-weight: 400; */
+    /* font-style: italic; */
+    /* text-decoration: line-through; */
+    word-spacing: 2px;
+
+}
+.table{
+    width: 100%;
+}
+
+/* .table td{
+    /* text-align: center; */
+    /* padding-bottom: 10px;
+}
+.table td:hover {
+    background: Plum;
+}
+.table tr:nth-child(odd)   {
+    background: #FFE4B5;
+}
+.table td:nth-child(2), .table td:nth-child(4) {
+    background: #fff;
+} */
+
+
+
+td,
+th{
+border: 2px solid #000;
+padding: 10px;
+}
+
+td {
+text-align:left;
+} 
+.tbody{ 
+border: 2px solid #000;
+padding: 10px;
+border-collapse: collapse;
+}
+
+.table tr:nth-child(odd)   {
+    background:LightSteelBlue;
+}
+.color-1{
+color:#000 ;
+} 
+
+ th[scope="col"] {
+background-color:slateblue;
+color: black;
+}
+
+th[scope="row"] {
+background-color: black;
+} 
+
+ caption {
+border: 2px solid #000 ;
+padding: 10px;
+caption-side: bottom;
+}
+
+.card{
+    /* border: 2px solid black; */
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+
+
+    /* opacity:0,5; */
+    /* margin-bottom: 3px; */
+}
+.card-1{
+    background: #FAEBD7;
+    border: 2px solid #000;
+    /* color: #F0FFF0; */
+}
+.card-1 li{
+    /* border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px; */
+    /* background:#E6E6FA; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; 
+    display: block;
+    /* border-left: 3px solid DodgerBlue; */
+    /* background: LightSteelBlue; */
+   
+}
+.card-1 h3{
+    /* display: block; */
+    text-align: center;
+}
+.card-2{
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    background: Linen;
+    color: #000;
+    /* margin-bottom: 3px; */
+}
+.card-2 h3{
+    text-align: center;
+}
+.card-3{
+    background: lightblue;
+    border-radius: 4px;
+    padding: 10px;
+    /* color: FloralWhite; */
+    border: 2px solid #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+.box {
+     padding: 30px 50px 40px 10px;
+}
+.info{
+    box-shadow: 4px 4px 14px rgba(0,0,0 0.25) ; 
+    /* margin-bottom: 20px;  */
+    /* display: flex; */
+    box-sizing: border-box;
+    display: inline-block;
+}
+.info-text{
+    display: flex;
+    /* hanging-punctuation: first last; */
+    /* margin: 0; */
+    /* width: 30%; */
+}
+.info-text, p{
+    /* display: inline; */
+    /* hanging-punctuation: first last; */
+    /* display: flex;  */
+    margin: 0;
+    width: 30%; 
+}
+/* .info-text, h2 {
+    display: inline;
+    width: 50%;
+} */
+.avatar{
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px; 
+    /* box-shadow: 4px 4px 14px rgba(0,0, 0.25); */
+    /* margin: 20px auto; */
+    /* display: block;  */
+
+}
+
+.link{
+    color: mediumslateblue;
+    text-decoration: none;
+    transition: all .3s;
+}
+.link:hover{
+    opacity: 0.5;
+    /* font-size: 12rem; */
+
+}
+.link:active{
+    color: orangered;
+}
+.link:visited{
+    color: gray;
+}
+.btn{
+    background: rgba(255,222,173, 0.8);
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+
+}
+.btn:hover{
+    opacity: 0.7;
+    color: orangered;
+}
+/* .fancy{
+    font-weight: bold;
+    text-shadow: 2px 2px 4px skyblue;
+} */
+/* h1,h2,h3{
+color:  rgba(25,25,112 0.5); 
+font-size: 20px;
+letter-spacing: 3px;
+} */
+.form h3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.form-row{
+    /* margin-bottom: 10px; */
+    display: flex;
+}
+.form-row, .form-group {
+    /* display: inline-block; */
+    margin-right: 10px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+
+}
+.form-row, .form-group:last-child{
+    margin-right: 0;
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    color: #000;
+    padding: 15px 0 15px;
+    outline: none;
+    font-family: inherit;
+    font-size: 10px;
+}
