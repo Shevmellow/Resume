@@ -1,4 +1,4 @@
-# Salut and welcome 
+# Salut and welcome!
 
 ## I have been mastering frontend skills for a month now and *i want to show what I have learned*.
 
