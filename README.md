@@ -3,7 +3,8 @@
 ## I have been mastering frontend skills for a month now and *i want to show what I have learned*.
 
 You can follow the link below to view my work.
-______________________________________________
+---------------
+
 
 ### ***interesting fact***:
 I was inspired by the colors from the scene of the full-length anime of the famous Hayao Miyazaki - My Neighbor Totoro!
